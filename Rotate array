@@ -1,5 +1,4 @@
-// Link for the problem: https://practice.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1/?category[]=Arrays&category[]=Arrays&difficulty[]=0&page=1&sortBy=accuracy&query=category[]Arraysdifficulty[]0page1sortByaccuracycategory[]Arrays#
-
+// Link for the problem: https://practice.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1/
 
 
 void rotateArr(int arr[], int d, int n){
