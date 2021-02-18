@@ -1,0 +1,12 @@
+//  Link for the problem:  https://practice.geeksforgeeks.org/problems/product-of-maximum-in-first-array-and-minimum-in-second3943/1/
+
+
+
+
+long long find_multiplication(int a[], int b[], int n, int m)
+{
+    sort(a, a+n);
+    sort(b, b+m);
+    long long mul = a[n-1]*b[0];
+    return mul;
+}
