@@ -1,0 +1,15 @@
+//  Link for the problem:  https://practice.geeksforgeeks.org/problems/balanced-array07200720/1/
+
+class Solution
+{
+public:
+    int minValueToBalance(int a[], int n)
+    {
+        int larr=0,rarr=0;
+        for(int i=0; i<n/2; i++)
+            larr+=a[i];
+        for(int i=n/2; i<n; i++)
+            rarr+=a[i];
+        return abs(larr-rarr);
+    }
+};
