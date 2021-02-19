@@ -1,0 +1,21 @@
+//  Link of the problem:  https://practice.geeksforgeeks.org/problems/kadanes-algorithm/1/?undefined#
+
+// Function to find subarray with maximum sum
+// arr: input array
+// n: size of array
+int maxSubarraySum(int arr[], int n){
+    
+    // Your code here
+    int max=0, temp=0;
+    
+    for(int i=0; i<n; i++)
+    {
+        temp+=arr[i];
+        if(max<temp)
+        max=temp;
+        if(temp<0)
+        temp=0;
+        
+    }
+    return max;
+}
