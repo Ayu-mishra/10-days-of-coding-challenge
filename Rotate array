@@ -1,4 +1,4 @@
-// Link for the problem: https://practice.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1/
+// Link for the problem: https://practice.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1/   //
 
 
 void rotateArr(int arr[], int d, int n){
