@@ -1,4 +1,4 @@
-//  Link of the problem:  https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays/1/
+// //Link of the problem:  https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays/1/
 
 class Solution{
     public:
